@@ -3,7 +3,7 @@ package CS5004.HW2;
 import java.util.Random;
 import java.util.Scanner;
 
-public class P3 {
+public class TheGameofPig {
 
     int humanPoints = 0;
     int pcPoints = 0;
@@ -14,7 +14,6 @@ public class P3 {
 
     public void game() {
 
-        // loop
         while (true) {
             System.out.println("-Human's turn");
             humanRound();
@@ -75,7 +74,7 @@ public class P3 {
 
 
     public static void main(String[] args) {
-        P3 p3 = new P3();
-        p3.game();
+        TheGameofPig p = new TheGameofPig();
+        TheGameofPig.game();
     }
 }
