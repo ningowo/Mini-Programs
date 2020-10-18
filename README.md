@@ -11,3 +11,15 @@ The game of Pig is a simple two-player dice game in which you compete with compu
   ROLL AGAIN or
   
   HOLD. (The sum of all rolls is added to the player’s score, and it becomes the other player’s turn.)
+
+## 2. Tic-Tac-Toe
+**I think my program is really simple and concise :)**
+
+Write a program that will allow two users to play tic-tac-toe. The program should ask for moves alternately from player X and player O.
+The players enter their moves by entering the position number they wish to mark. After each move, the program displays the changed board. A sample board con-figuration is 
+
+X 	X 	O 
+
+4 	5 	6 
+
+O 	8 	9
